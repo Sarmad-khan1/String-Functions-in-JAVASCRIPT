@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str="This is computer and is used to run programs";
+        console.log(str);
+        // To find out position of index in substring.
+
+        var position=str.indexOf('is');
+        console.log(position);
+        // similarly to find out position of last index of a substring we use following command.
+         var position = str.lastIndexOf('is');
+         console.log(position);
+
+
+        //  Index always starts from zero
+
+        // var substr = str.slice(1,9);
+        var substr = str.slice(0,9);
+        console.log(substr);
+
+        // There is another method to do slicing of index. it is substring function.
+
+        var str1 = "This is a line paragraph and it is used to put the description on";
+        console.log(str1);
+
+        var substr = str1.substring(1,9);
+        console.log(substr);
+
+
+        // in slice we can insert negative values to it. But substring wont take negative values. it will only take positive values..
+
+        var substr2 = "This is a Laptop";
+        console.log(substr2);
+
+        // Now i'll replace some part of string by using replaced function.
+
+        var replaced = substr2.replace('Laptop','PC');
+        console.log(replaced);
+
+
+
+
+    </script>
+</body>
+</html>
